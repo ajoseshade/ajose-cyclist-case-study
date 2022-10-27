@@ -23,6 +23,18 @@ This is the original [dataset](https://divvy-tripdata.s3.amazonaws.com/index.htm
 
 Tools I selected for data verification and cleaning
 * Postgresql
-*PowerBI
-*Excel
+* PowerBI
+* Excel
 ###### Initial assessment on the dataset in microsoft excel
+* Inspected all 12 datasets to check if they were accurate and reliable
+* Columns start_station_name, start_station_id, end_station_name, end_station_id were deleted becuase they are not needed in the analysis.
+## Data Cleaning and Manipulation
+Imported all dataset into Power BI and merged them. 
+By using power query all these were performed to get the data ready for analysis
+* Properly cleaning the dataset
+* Adding a column ride_length, start_day_of_week, start_month_name, start_year, start_day_name and start_date.
+
+In Power BI, the average ride_length, maximum ride_length and mode of start_day_of_week are found and are used in the analysis
+
+## Analysing the dataset
+
