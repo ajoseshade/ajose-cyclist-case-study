@@ -29,12 +29,14 @@ Tools I selected for data verification and cleaning
 * Inspected all 12 datasets to check if they were accurate and reliable
 * Columns start_station_name, start_station_id, end_station_name, end_station_id were deleted becuase they are not needed in the analysis.
 ## Data Cleaning and Manipulation
-Imported all dataset into Power BI and merged them. 
-By using power query all these were performed to get the data ready for analysis
-* Properly cleaning the dataset
-* Adding a column ride_length, start_day_of_week, start_month_name, start_year, start_day_name and start_date.
+Imported all dataset into Power BI and merged them.
+* By using power query all these were performed to get the data ready for analysis
+* Checked for duplicates and deleted all rows with the same ride_id
+* Checked and removed all null values
+* Trimmed all the columns to make sure there won't be issues with whitespaces.
+* Adding a column ride_length, start_day_of_week, start_month_name, start_year, start_day_name and start_date which would be needed in the analysis.
 
-In Power BI, the average ride_length, maximum ride_length and mode of start_day_of_week are found and are used in the analysis
 
 ## Analysing the dataset
+In Power BI, the average ride_length, maximum ride_length and mode of start_day_of_week are found and are used in the analysis
 
