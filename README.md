@@ -37,11 +37,32 @@ After the assessment, the data was imported into Power BI and merged.
 
 ## Analysing the dataset
 The data is now cleaned and ready for analysis.
-# Number of rides versus Analysis of weekday
-It is shown that annual members account for 59.02% of the number of rides taken.
+###### Number of rides versus Analysis of weekday
 
 ![Count of ride ID](https://user-images.githubusercontent.com/68378328/213943922-dbb16444-e4f5-4073-bb44-12e550b25649.jpg)
 
-# Analysis of Number of rides and Weekday
-0 being Monday and 6 being Sunday
+It is shown that annual members account for 59.02% and 40.98% for casual riders of the rides taken
 
+###### Analysis of Number of rides and Weekday
+
+![day of the week](https://user-images.githubusercontent.com/68378328/214164915-3cc639cf-818d-4f2d-af7a-4266f3885604.jpg)
+
+This shows the rides taken in a week, 0 being Monday and 6 being Sunday. For both casual riders and members, the number of rides taken fluctuates as the week goes by from Monday and is at it's highest on Saturday.However, the number of rides taken by Casual riders are more on Saturday than that of Members and for the rest of the week, the number of rides taken by Casual riders are lower than that of Members.
+
+###### Queried to check if Casual riders and Members prefer to ride in any specific month as compared to others
+
+
+![Monthly analysis](https://user-images.githubusercontent.com/68378328/214172301-8e77c2c8-ed41-4af3-81ea-6ccfbf43f8d5.jpg)
+
+Throughout the year, the number of rides taken by Casual riders is lower than that of Members. We can also see that for both Members and Casual riders, the number of rides taken fluctuates in the first four month, then in May it increases and reaches it's highest point in August and then declines for the rest of the year.
+###### Checked to see if Casual riders or Members preferred any type of bike
+
+![Rideable type#](https://user-images.githubusercontent.com/68378328/214173874-eb1a6914-7d01-4828-aaea-afa81888a215.jpg)
+
+Both Casual riders and Members prefferd the docked_bike and the least favourite was the electric_bike
+
+###### The mean ride length
+
+![Mean](https://user-images.githubusercontent.com/68378328/214175339-5730cc78-54c2-43f6-abed-b3ef3599db18.jpg)
+
+The mean ride length for Casual riders is greater than that of Members
