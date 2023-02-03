@@ -15,10 +15,14 @@ your team wants to understand how casual riders and annual members use Cyclistic
 your team will design a new marketing strategy to convert casual riders into annual members. But first, Cyclistic executives
 must approve your recommendations, so they must be backed up with compelling data insights and professional data
 visualizations.
-## Question
- How do annual members and casual riders use Cyclist bikes differently?
+## Ask phase
+What is the problem you are trying to solve?
+The main objective is to analyse how casual riders and annual members use Cyclist bikes differently.
+
+How can your insights drive business decions?
+The insights gotten would be used to create strategies on how casual riders can be annual members.
  
-In order to answer this question and for my analysis, I have chosen a twelve month period from September 2021 to August 2022.
+In order to answer these questions and for my analysis, I have chosen a twelve month period from April 2020 to March 2021.
 This is the original [dataset](https://divvy-tripdata.s3.amazonaws.com/index.html) and [Licence](https://ride.divvybikes.com/data-license-agreement)
 
 Tools I selected for this project are;
@@ -39,12 +43,11 @@ By using power query all these were performed to get the data ready for analysis
 The data is now cleaned and ready for analysis.
 
 ## Analysing the dataset
-
 ###### Number of rides versus Analysis of weekday
 
 ![Count of ride ID](https://user-images.githubusercontent.com/68378328/213943922-dbb16444-e4f5-4073-bb44-12e550b25649.jpg)
 
-It is shown that annual members account for 59.02% and 40.98% for casual riders of the rides taken
+It is shown that annual members account for 59.02% and 40.98% for casual riders of the rides taken.
 
 ###### Analysis of Number of rides and Weekday
 
