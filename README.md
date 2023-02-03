@@ -1,4 +1,4 @@
-# cyclist-case-study
+# Cyclist-case-study
 ## Introduction
 The Google Data Analytics Certification course on coursera includes capstone projects to complete.This is my first case study and I have chosen the Cyclist Dataset for this project. In order to answer the key business questions, I have followed these steps:
 * Ask
