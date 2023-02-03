@@ -25,12 +25,15 @@ The insights gotten would be used to create strategies on how casual riders can 
 In order to answer these questions and for my analysis, I have chosen a twelve month period from April 2020 to March 2021.
 This is the original [dataset](https://divvy-tripdata.s3.amazonaws.com/index.html) and [Licence](https://ride.divvybikes.com/data-license-agreement)
 
+## Prepare phase
 Tools I selected for this project are;
 * PowerBI
 * Excel
 ###### Initial assessment on the dataset in microsoft excel
 * Inspected all 12 datasets to check if they were accurate and reliable and then noticed columns start_station_name, start_station_id, end_station_name, end_station_id had too many null values.
-## Data Cleaning and Manipulation
+
+## Process phase
+#### Data Cleaning and Manipulation
 After the assessment, the data was imported into Power BI and merged.
 
 By using power query all these were performed to get the data ready for analysis;
@@ -61,6 +64,12 @@ This shows the rides taken in a week, 0 being Monday and 6 being Sunday. For bot
 ![Monthly analysis](https://user-images.githubusercontent.com/68378328/214172301-8e77c2c8-ed41-4af3-81ea-6ccfbf43f8d5.jpg)
 
 Throughout the year, the number of rides taken by Casual riders is lower than that of Members. We can also see that for both Members and Casual riders, the number of rides taken fluctuates in the first four month, then in May it increases and reaches it's highest point in August and then declines for the rest of the year.
+
+###### Queried to see the what time the volume of ride is at it's highest between annual members and casual riders
+
+![start time](https://user-images.githubusercontent.com/68378328/216705561-0a591fd8-c36c-4537-aa74-b49256c93a21.jpg)
+
+The volume of ride is low in the mornings but then steadily increases till about 5pm before dropping again. Also, the number of casual riders is more in the morning from late night till early morning but annual members represent a bigger volume throughout the rest of the day.
 ###### Checked to see if Casual riders or Members preferred any type of bike
 
 ![Rideable type#](https://user-images.githubusercontent.com/68378328/214173874-eb1a6914-7d01-4828-aaea-afa81888a215.jpg)
@@ -69,6 +78,18 @@ Both Casual riders and Members preferred the docked_bike and the least favourite
 
 ###### The mean ride length
 
-![Mean](https://user-images.githubusercontent.com/68378328/214175339-5730cc78-54c2-43f6-abed-b3ef3599db18.jpg)
 
-The mean ride length for Casual riders is greater than that of Members
+![Mean](https://user-images.githubusercontent.com/68378328/216705317-3bb12146-d1e8-4a9e-b0c0-2b899c853435.jpg)
+
+The mean ride length for Casual riders is greater than that of Members throughout the week.
+
+## Share Phase
+###### Trends to note
+* The usage pattern between annual members differ from casual riders
+* Docked bikes are the most preferrable type of bike
+* The average riding time for members is lower than that of casual riders
+
+## Act phase
+The analysis done on this dataset showed that the usage pattern between annual members and casual riders differ as regards to weekday, weekend trends and also during a particular time. Annual members are shown to use the services more during the weekday and also durng peak hours compared to casual riders who use the services more during weekends and off peak hours.
+
+This analysis can be used by the marketing team to create strategies that would convince casual riders to become annual members as they significantly constitute a larger percentage of the customer base.
