@@ -28,15 +28,18 @@ Tools I selected for this project are;
 * Inspected all 12 datasets to check if they were accurate and reliable and then noticed columns start_station_name, start_station_id, end_station_name, end_station_id had too many null values.
 ## Data Cleaning and Manipulation
 After the assessment, the data was imported into Power BI and merged.
-* By using power query all these were performed to get the data ready for analysis
+
+By using power query all these were performed to get the data ready for analysis;
 * Checked for duplicates and deleted all rows with the same ride_id
 * Checked and removed all null values
 * Trimmed all the columns to make sure there won't be issues with whitespaces.
 * Adding a column ride_length, start_day_of_week, start_month, ride_length, and start_month_number which would be needed in the analysis.
 * The average ride_length, maximum ride_length and mode of start_day_of_week are also found and are used in the analysis.
 
-## Analysing the dataset
 The data is now cleaned and ready for analysis.
+
+## Analysing the dataset
+
 ###### Number of rides versus Analysis of weekday
 
 ![Count of ride ID](https://user-images.githubusercontent.com/68378328/213943922-dbb16444-e4f5-4073-bb44-12e550b25649.jpg)
@@ -59,7 +62,7 @@ Throughout the year, the number of rides taken by Casual riders is lower than th
 
 ![Rideable type#](https://user-images.githubusercontent.com/68378328/214173874-eb1a6914-7d01-4828-aaea-afa81888a215.jpg)
 
-Both Casual riders and Members prefferd the docked_bike and the least favourite was the electric_bike
+Both Casual riders and Members preferred the docked_bike and the least favourite was the electric_bike
 
 ###### The mean ride length
 
